@@ -1,8 +1,8 @@
 
-// Here we specify a function that will be called later.
-// This function takes one parameter (argument)
-// The internal statements of the function will be executed only 
-// when it is called.
+// this code will print out three types of pyramids, normal, upside-down and hollow one. 
+// the user has the choice to determine pyramid level. 
+// the user has also the choice to deterime which sign the pyramid is composed of (== , XX, ... ect)
+// three functions are built and called.
 
 process.stdout.write("HOW MANY LEVELS DO YOU WANT THE PYRAMID TO HAVE?\n");
 process.stdin.on("data", function (InputFromUser){
