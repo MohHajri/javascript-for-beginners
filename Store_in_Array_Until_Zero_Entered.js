@@ -9,14 +9,14 @@ simple loops */
 
      process.stdout.write("enter a number: \n ");
      process.stdin.on("data", function (inputfromuser){
- 
      let i = Number(inputfromuser);
- 
- process.stdout.write(i + "\n");
-
- if (i == 0){
-     process.exit();
- }
+          if (i !== 0){
+                let MyArray = new Array();
+                MyArray.push(i);
+                process.stdout.write(MyArray + "\n");
+               else {
+                     process.exit();
+                    }
  
  
      })
