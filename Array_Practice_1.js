@@ -1,3 +1,5 @@
+// practice for arrays!
+
 let integerArray = [5, 7, 32, 31, 8];
 let doubleArray = [12.4, -13.55, 67.44];
 let stringArray= ["Helsinki", "Lissabon", "New York", "Shanghai"];
